@@ -1,0 +1,187 @@
+.topBarWrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 25px;
+    background-color: #0B0A0C;
+    height: 90px;
+}
+
+.logoText1 {
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 36px;
+}
+
+.logoText2 {
+    font-size: 31px;
+    line-height: 36px;
+    margin-left: 10px;
+}
+
+.gameBlogPanel {
+    font-family: Raleway !important;
+    display: flex;
+    align-items: center;
+    color: #fff;
+    font-size: 16px;
+}
+
+.multiWrapper {
+    display: flex;
+}
+
+.multiWrapper * {
+    font-family: Raleway !important;
+}
+
+.walletConWrapper {
+    display: flex;
+    align-items: center;
+}
+
+.fontNumber {
+    font-family: "Poppins" !important;
+    font-weight: 300;
+}
+
+.mobileAppBarWrapper {
+    display: none !important;
+    background-color: #0B0A0C;
+    color: white;
+}
+
+.desktopAppBarWrapper {}
+
+@media (max-width: 1200px) {
+    .desktopAppBarWrapper {
+        display: none !important;
+    }
+
+    .mobileAppBarWrapper {
+        display: block !important;
+
+    }
+
+    .mobileTopBarWrapper {
+        display: flex;
+        width: 100%;
+        padding: 15px 10px 5px;
+        background-color: #0B0A0C !important;
+        box-shadow: none;
+    }
+
+    .mobileTopBarWrapper>div {
+        /* background-color: #0F0E10; */
+        border-radius: 10px;
+        /* border: 1px solid #0F0E10; */
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        padding: 10px 10px 20px 10px;
+        box-shadow: 0px 0px 20px rgba(255, 255, 255, 0.15);
+
+    }
+
+    .topBarMenu {
+        height: 34px;
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .sideBarMenuText>span {
+        font-size: 18px !important;
+        line-height: 21px !important;
+        font-family: Raleway !important;
+    }
+
+    .sidebarMenuItem {
+        padding-left: 0 !important;
+        padding-top: 15px !important;
+        padding-bottom: 15px !important;
+    }
+
+    .sideBarMenuTextWithImg {
+        display: inline;
+        flex: none !important;
+        margin-right: 15px;
+    }
+
+    .sideBarMenuTextWithImg>span {
+        display: inline;
+        font-size: 18px !important;
+        line-height: 21px !important;
+        font-family: Raleway !important;
+    }
+
+    .gamaBalanceManageBtnGroup {
+        /* height: 45px; */
+        width: 100%;
+    }
+
+    .gamaBalanceManageBtnGroup>button {
+        width: 50%
+    }
+}
+
+@media (max-width: 600px) {
+    .mobileTopBarWrapper {
+        padding: 5px 10px;
+    }
+
+    .mobileTopBarWrapper>div {
+        /* height: 34px !important; */
+        padding: 5px 8px;
+    }
+
+    .topBarMenu>div {
+        display: flex;
+        align-items: center;
+    }
+
+    .logoText1, .logoText2 {
+        font-size: 18px !important;
+        line-height: 21px !important;
+
+    }
+
+    .sideBarMenuText>span {
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 16px !important;
+        font-family: Raleway !important;
+    }
+
+    .menuIconWrapper {
+        width: 15px;
+        height: 15px;
+    }
+
+    .sidebarMenuItem {
+        padding-top: 12px !important;
+        padding-bottom: 12px !important;
+    }
+
+    .sideBarMenuTextWithImg>span {
+        font-weight: 400 !important;
+        font-size: 14px !important;
+        line-height: 16px !important;
+    }
+
+    .balanceLabel {
+        display: none;
+    }
+
+    .gameBlogPanel .fontNumber {
+        font-size: 16px;
+    }
+
+
+
+}
+
+@media (max-width:320px) {
+    /* .gameBlogPanel>h3 {
+        display: none;
+    } */
+}

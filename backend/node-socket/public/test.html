@@ -1,0 +1,34 @@
+<!doctype html>
+<html>
+  <head>
+    <script src="http://code.jquery.com/jquery-latest.min.js"></script>
+    <script src="/socket.io/socket.io.min.js" type="text/javascript" charset="utf-8"></script>
+    <script type="text/javascript" charset="utf-8">
+      function add_content(str){
+        console.log(str);
+        $('div').append('<p>' + $('<div/>').text(str).html() + '</p>');
+        $(window).scrollTop($('body').height() - $(window).height() + 80);
+      }
+      var socket = io('http://199.19.74.107:3000');
+      socket.on('msg', function(data) {
+        console.log(data);
+      });
+      socket.on('new_acts', function(data) {
+        add_content(JSON.stringify
+        (data));
+      });
+    </script> 
+    <style type="text/css">
+      body, p, input {
+        font-family: fixed;
+        font-size: 13px;
+        border: none;
+      }
+      p { white-space: pre; }
+      p, form, input { margin:0; padding:0; }
+    </style>
+  </head>
+  <body>
+    <div></div>
+  </body>
+</html>

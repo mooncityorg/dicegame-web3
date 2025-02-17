@@ -1,0 +1,117 @@
+.sideBarWrapper {
+
+    margin-bottom: 65px;
+}
+
+.sideBar {
+    padding: 15px;
+}
+
+.sideBar>div {
+
+    background: #0B0A0C;
+    border: none;
+}
+
+.sideBarMenuText>span {
+    font-size: 18px !important;
+    line-height: 21px !important;
+    font-family: Raleway !important;
+}
+
+.sidebarMenuItem {
+    padding-left: 25px !important;
+    padding-top: 15px !important;
+    padding-bottom: 15px !important;
+}
+
+.sideBarMenuTextWithImg {
+    display: inline;
+    flex: none !important;
+    margin-right: 15px;
+}
+
+.sideBarMenuTextWithImg>span {
+    display: inline;
+    font-size: 18px !important;
+    line-height: 21px !important;
+    font-family: Raleway !important;
+}
+
+.subtitle {
+
+    font-size: 16px !important;
+    line-height: 19px !important;
+    margin-bottom: 10px !important;
+    font-family: Raleway !important;
+}
+
+.sidebarBtn {
+    background-color: #232124 !important;
+    /* height: 27px; */
+    width: 100%;
+    border-radius: 3px;
+    /* border: 1px white solid; */
+
+    font-size: 14px !important;
+    line-height: 16px !important;
+    padding: 2px 5px !important;
+    display: flex !important;
+    justify-content: flex-start !important;
+    height: 27px;
+    font-family: Raleway !important;
+    text-transform: none !important;
+}
+
+.sidebarBtn>.imgWrapper {
+    margin-right: 10px;
+    display: flex;
+}
+
+.sidebarDescription {
+    font-size: 14px !important;
+    line-height: 16px !important;
+    margin-top: 10px !important;
+    color: #D6D6D6;
+    font-family: Raleway !important;
+}
+
+
+.eventTitle {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+.eventContent {
+    font-size: 14px;
+    line-height: 25px;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.eventBox {
+    background: linear-gradient(114.38deg, #8B70D8 -10.81%, #D87070 115.35%);
+    border-radius: 5px;
+    padding: 16px;
+    font-family: Raleway !important;
+}
+
+.sidebarDescription2 {
+    margin-top: 0 !important;
+    margin-bottom: 25px !important;
+    font-family: Raleway !important;
+    font-size: 14px !important;
+    line-height: 16px !important;
+    color: #D6D6D6;
+
+}
+
+@media (max-width: 1200px) {
+    .appSideBar {
+        display: none;
+    }
+
+}

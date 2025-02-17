@@ -1,0 +1,13 @@
+[programs.devnet]
+dice_gaming = "HeA7Q5iBz3rkdjhyTHApyVFuks7uTM7brGidxVfwgqJM"
+
+[registry]
+url = "https://anchor.projectserum.com"
+
+[provider]
+#cluster = "http://127.0.0.1:8899"
+cluster = "devnet"
+wallet = "/home/fury/.config/solana/id.json"
+
+[scripts]
+test = "yarn run ts-mocha -p ./tsconfig.json -t 1000000 tests/**/*.ts"

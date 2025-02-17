@@ -1,0 +1,494 @@
+.mainContentPanel {
+    color: white;
+    font-family: Raleway !important;
+    margin-top: 80px;
+    margin-right: 65px;
+    margin-bottom: 55px;
+    display: flex;
+    box-shadow: 0 0 10px #242123;
+    border-radius: 10px;
+}
+
+.firstPanel {
+    width: 34%;
+    padding: 55px 0 50px 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.17);
+
+}
+
+.firstPanel>div {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.firstPanel .gradientTitle {
+    font-size: 21px;
+    line-height: 25px;
+    font-weight: normal;
+    background: -webkit-linear-gradient(50deg, #8B70D8, #D87070);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin: 0;
+}
+
+.firstPanel .textTitle {
+    font-weight: normal;
+    font-size: 48px;
+    line-height: 56px;
+    margin: 20px 0 25px;
+}
+
+.colorBar {
+    width: 100px;
+    height: 6px;
+    display: block;
+    background: linear-gradient(114.38deg, #8B70D8 -10.81%, #D87070 115.35%) !important;
+}
+
+.firstPanel .subTitle {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0 0 12px;
+}
+
+.firstPanel .subTitle>span {
+    font-weight: 300;
+
+}
+
+.firstPanel .subDescription {
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0 0 55px;
+}
+
+.solDepositPanel {
+    grid-template-columns: 1fr 1fr;
+    padding: 25px 0 0 0;
+    grid-gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.depositBtn {
+    background-color: #232124 !important;
+
+    width: calc(33.33% - 20px) !important;
+    border-radius: 5px !important;
+    height: 27px !important;
+    /* Weight 500px; */
+    font-family: "Poppins" !important;
+    font-style: normal !important;
+    font-weight: 500 !important;
+    font-size: 18px !important;
+    line-height: 27px !important;
+    /* identical to box height */
+    color: #ffffff !important;
+    /* margin-right: 20px !important; */
+}
+
+.customDeposit {
+    /* font-family: Poppins !important;
+    width: 195px;
+    height: 27px;
+    border-radius: 5px;
+    background: #232124;
+    font-size: 14px;
+    line-height: 21px;
+    color: #FFFFFF; */
+}
+
+.customDepositInput {
+    width: calc(66.67% - 20px) !important;
+    height: 27px !important;
+    border-radius: 5px;
+    background: #232124;
+    border: none;
+    color: white;
+    font-size: 14px;
+    line-height: 21px;
+    text-align: center;
+    font-family: "Poppins" !important;
+}
+
+.customDepositInput::placeholder {
+    color: white;
+    opacity: 1;
+}
+
+.customDepositInput:-ms-input-placeholder {
+    /* Internet Explorer 10-11 */
+    color: white;
+}
+
+.customDepositInput::-ms-input-placeholder {
+    /* Microsoft Edge */
+    color: white;
+}
+
+.dicePlayBtn {
+    height: 45px;
+    width: calc(100% - 20px);
+    background: linear-gradient(114.38deg, #8b70d8 -10.81%, #d87070 115.35%);
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.07) !important;
+    border-radius: 10px !important;
+    font-size: 16px !important;
+    line-height: 19px !important;
+    text-align: center !important;
+    font-weight: normal !important;
+    font-family: Raleway !important;
+}
+
+.secondPanel {
+    width: 30%;
+    padding: 55px 0 50px 0;
+    border-right: 1px solid rgba(255, 255, 255, 0.17);
+
+}
+
+.secondPanel>div {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.secondPanel .gameTitle {
+    margin: 0;
+    text-align: center;
+    font-weight: normal;
+    font-size: 36px;
+    line-height: 42px;
+    font-family: Raleway !important;
+    padding: 0 20px;
+}
+
+.systemDiceWrapper .resultText {
+    margin-bottom: 85px;
+}
+
+.thirdPanel {
+    width: 36%;
+    padding: 55px 0 50px 0;
+
+}
+
+.resultText {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 28px;
+    display: flex;
+    justify-content: center;
+    margin: 0 0 130px;
+}
+
+.resultText>span {
+    margin: 0 35px;
+}
+
+.replayPanel {
+    margin: 0 87px;
+}
+
+.replayPanel p {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 30px;
+    /* or 167% */
+
+    text-align: center;
+    color: rgba(255, 255, 255, 0.65);
+    margin: 0 0 14px;
+}
+
+.replayBtn {
+    width: 100%;
+    height: 45px !important;
+    background: #232124 !important;
+    box-shadow: 0px 0px 30px rgba(255, 255, 255, 0.07) !important;
+    border-radius: 10px !important;
+
+    font-size: 16px !important;
+    line-height: 19px !important;
+    color: #FFFFFF !important;
+    max-width: 400px;
+    margin: auto !important;
+    display: block !important;
+}
+
+.thirdPanel>div {
+    max-width: 400px;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+
+.thirdPanel h2 {
+    font-size: 24px;
+    font-weight: 600;
+    color: #fff;
+    margin: 5px 0 17px 0;
+}
+
+.thirdPanel p {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    margin: 0 0 14px 0;
+}
+
+.thirdPanel p:last-child {
+    margin-bottom: 0;
+}
+
+.thirdPanel h3 {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.thirdPanel h3 span {
+    margin: 0 5px;
+}
+
+.thirdPanel .historyTitle {
+    margin: 0 0 17px 0;
+}
+
+.thirdPanel .statTitle {
+    margin: 0 0 27px 0;
+}
+
+.thirdPanel .historyWrapper {
+    margin-bottom: 70px;
+}
+
+.secondPanelTitlePanel {
+    display: none;
+}
+
+@media (max-width: 1600px) {
+    .mainContentPanel {
+        flex-direction: column-reverse;
+
+    }
+
+    .firstPanel>div {
+        max-width: 1200px !important;
+        margin: 0 30px;
+        border: none;
+    }
+
+    .firstPanel {
+        width: 100%;
+        border: none;
+    }
+
+    .secondPanel {
+        width: 100%;
+        border-right: none;
+        border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+    }
+
+    .secondPanel>div {
+        margin: 0 30px;
+    }
+
+    .thirdPanel {
+        display: none;
+    }
+}
+
+@media (max-width: 1440px) {
+    .firstPanel {
+        padding: 30px 20px 50px 20px;
+    }
+
+    .mainContentPanel {
+        border-radius: 10px;
+    }
+
+    .replayPanel {
+        margin: 0 20px;
+    }
+
+    .resultText span {
+        margin: 0 20px;
+    }
+
+    .thirdPanel>div {
+        max-width: calc(100% - 40px);
+        /* margin-right: 20px;
+        margin-left: 20px; */
+    }
+
+    .thirdPanel {
+        padding: 30px 20px 50px 20px;
+    }
+}
+
+@media (max-width: 1200px) {
+    .dicePlayBtn {
+        /* min-width: 100% !important; */
+        margin: 0 !important;
+        width: calc(100% - 20px)
+    }
+
+    .mainContentPanel {
+        margin: 80px 50px 50px 50px !important;
+    }
+
+}
+
+@media (max-width:600px) {
+    .mainContentPanel {
+        box-shadow: none;
+        margin: 50px 0 0 0 !important;
+    }
+
+    .secondPanel {
+        padding-top: 6px;
+    }
+
+    .secondPanel>div {
+        margin: 0 !important;
+    }
+
+    .secondPanelTitlePanel {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.17);
+        padding: 0 15px;
+        display: block;
+    }
+
+    .secondPanelTitlePanel>.title1 {
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        /* Gambling */
+        background: linear-gradient(114.38deg, #8B70D8 -10.81%, #D87070 115.35%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        background-clip: text;
+        text-fill-color: transparent;
+        -webkit-text-fill-color: transparent;
+        margin: 15px 0;
+    }
+
+    .secondPanelTitlePanel>.title2 {
+        font-weight: 500;
+        font-size: 27px;
+        line-height: 32px;
+        margin-top: 0px;
+    }
+
+    .playerDiceWrapper>.gameTitle {
+        margin: 20px 15px 0;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .systemDiceWrapper>.gameTitle {
+        margin: 0 auto;
+        font-weight: 400;
+        font-size: 21px;
+        line-height: 25px;
+    }
+
+    .resultText {
+        margin-bottom: 10px;
+        font-size: 21px !important;
+    }
+
+    .systemDiceWrapper .resultText {
+        margin-bottom: 10px;
+    }
+
+    /* 
+     */
+    .firstPanel {
+        padding: 0 0 15px;
+    }
+
+    .firstPanel>div {
+        margin: 0 15px;
+    }
+
+    .firstPanel .gradientTitle, .firstPanel .textTitle, .firstPanel .colorBarWrapper, .firstPanel .gameDetailInfo {
+        display: none;
+    }
+
+    .firstPanel .subTitle {
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 19px;
+        margin: 20px 0 12px;
+    }
+
+    .depositBtn, .customDepositInput {
+        font-weight: 300 !important;
+        font-size: 12px !important;
+        line-height: 18px !important;
+        width: calc(33.33% - 10px) !important;
+    }
+
+    /* .depositBtn {} */
+
+    .customDepositInput {
+        width: calc(66.67% - 10px) !important;
+    }
+
+    .solDepositPanel {
+        padding: 0;
+        grid-gap: 10px;
+    }
+
+    .dicePlayBtn {
+        width: calc(100% - 10px) !important;
+    }
+
+}
+
+@media (max-width:320px) {
+    .secondPanel {
+        padding-bottom: 0px;
+    }
+
+    .depositBtn {
+        width: calc(17.2% - 10px) !important;
+        min-width: 30px !important;
+    }
+
+    .customDepositInput {
+        width: calc(48% - 10px) !important;
+    }
+
+    .dicePlayBtn {
+        height: 27px !important;
+    }
+
+    .replayPanel {
+        display: none;
+
+    }
+
+    .resultText span {
+        margin: 0 10px;
+    }
+
+
+
+}
