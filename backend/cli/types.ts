@@ -7,7 +7,7 @@ export interface GlobalPool {
 }
 
 export interface GameData {
-    playTime: anchor.BN,         // 8
+    playTime: anchor.BN,         // 08
     amout: anchor.BN,           // 8
     rewardAmount: anchor.BN,    // 8
     rand1: anchor.BN,
