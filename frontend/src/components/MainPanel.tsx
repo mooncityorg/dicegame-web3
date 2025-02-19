@@ -28,11 +28,8 @@ const MainPanel = (props: any) => {
             >
 
                 <Container maxWidth="lg" sx={{ mt: 12 }}>
-                    {/* <Typography paragraph>
-                        <h3>Net Worth</h3>
-                        <h4>$0.00</h4>
 
-                    </Typography> */}
+                    
                     {children}
 
                 </Container>
